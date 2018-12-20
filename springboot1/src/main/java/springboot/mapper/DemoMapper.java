@@ -7,4 +7,5 @@ public interface DemoMapper {
     int select();
 
 StringBuffer sb = new StringBuffer();
+    StringBuffer sb2= new StringBuffer();
 }
