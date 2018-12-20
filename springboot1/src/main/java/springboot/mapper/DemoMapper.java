@@ -8,4 +8,6 @@ public interface DemoMapper {
 
 StringBuffer sb = new StringBuffer();
     StringBuffer sb2= new StringBuffer();
+    StringBuffer sb3= new StringBuffer();
+
 }
