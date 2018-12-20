@@ -1,8 +1,8 @@
 package springboot.mapper;
 
-import org.apache.ibatis.annotations.Select;
+import springboot.model.City;
 
 public interface DemoMapper {
-    @Select(value = "")
-    int select();
+
+    City selectCitys();
 }
