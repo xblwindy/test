@@ -2,7 +2,6 @@ package com.jcohy.scis.controller;
 
 import com.jcohy.lang.StringUtils;
 import com.jcohy.scis.common.JsonResult;
-import com.jcohy.scis.exception.ServiceException;
 import com.jcohy.scis.model.Admin;
 import com.jcohy.scis.model.Expert;
 import com.jcohy.scis.model.Student;
@@ -63,6 +62,7 @@ public class LoginController {
             logger.error("name:{}  password:{}  type:{}",num,password,role);
             if(StringUtils.trim(role).equals("student")){
                 Student login = studentService.login(num, password);
+//                Student login = studentService.login(num);
                 if(login == null){
                     return JsonResult.fail("登录失败,用户名不存在");
                 }
