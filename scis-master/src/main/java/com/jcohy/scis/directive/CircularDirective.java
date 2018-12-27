@@ -32,6 +32,7 @@ public class CircularDirective implements TemplateDirectiveModel{
         environment.setVariable("list", new DefaultObjectWrapperBuilder(Configuration.VERSION_2_3_25).build().wrap(list));
         if (templateDirectiveBody != null) {
             templateDirectiveBody.render(environment.getOut());
+            templateDirectiveBody.render(environment.getOut());
         }
     }
 }
