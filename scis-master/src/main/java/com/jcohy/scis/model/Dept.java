@@ -4,8 +4,9 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 /**
- * Description  :院系表
- */
+ * Created by xbl on 2018/5/26.
+         * Description  :
+         */
 @Entity
 @Table(name = "dept")
 public class Dept implements Serializable{

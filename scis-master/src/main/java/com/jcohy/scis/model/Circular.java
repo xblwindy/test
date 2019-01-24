@@ -7,9 +7,8 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * Created by jiac on 2018/1/4 10:31.
- * ClassName  : Notice
- * Description  :日志实体类
+ * Created by xbl on 2018/5/26.
+ * Description  :
  */
 @Entity
 @Table(name = "circular")

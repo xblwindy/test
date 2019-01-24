@@ -2,14 +2,10 @@ package com.jcohy.scis.common;
 
 import java.util.List;
 import java.util.Map;
-
 /**
- * Copyright  : 2017- www.jcohy.com
- * Created by jiac on 23:51 2018/5/30
- * Email: jia_chao23@126.com
- * ClassName: Graph
- * Description:
- **/
+ * Created by xbl on 2018/5/26.
+ * Description  :
+ */
 public class Graph {
 
     private List<Data> type;

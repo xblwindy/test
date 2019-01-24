@@ -4,8 +4,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 /**
- * Created by jiac on 2018/5/25.
- * ClassName  : com.jcohy.scis.model
+ * Created by xbl on 2018/5/26.
  * Description  :
  */
 @Entity

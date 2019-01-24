@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by jiac on 2017/10/18 10:22.
+ * Created by xbl on 2017/10/18 10:22.
  * ClassName  : JsonResult
  * Description  :
  */

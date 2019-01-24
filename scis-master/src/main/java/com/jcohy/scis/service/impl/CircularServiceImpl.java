@@ -12,11 +12,9 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * Created by jiac on 2018/1/31 09:25.
- * ClassName  : NoticeServiceImpl
+ * Created by xbl on 2018/5/26.
  * Description  :
  */
-
 @Service
 public class CircularServiceImpl implements CircularService {
 

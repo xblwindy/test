@@ -14,12 +14,9 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 /**
- * Copyright  : 2017- www.jcohy.com
- * Created by jiac on 23:54 2018/2/6
- * Email: jia_chao23@126.com
- * ClassName: AdminTypeController
- * Description:
- **/
+ * Created by xbl on 2018/5/26.
+ * Description  :
+ */
 @Controller
 @RequestMapping("/admin/type")
 public class AdminTypeController {

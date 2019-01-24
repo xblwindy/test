@@ -8,12 +8,9 @@ import org.springframework.data.domain.Pageable;
 import java.util.List;
 
 /**
- * Copyright  : 2017- www.jcohy.com
- * Created by jiac on 18:52 2018/4/6
- * Email: jia_chao23@126.com
- * ClassName: ExpertService
- * Description:
- **/
+ * Created by xbl on 2018/5/26.
+ * Description  :
+ */
 public interface ExpertService {
 
     /**

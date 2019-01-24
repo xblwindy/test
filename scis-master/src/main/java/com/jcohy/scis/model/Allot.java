@@ -4,13 +4,9 @@ import javax.persistence.*;
 import java.util.Date;
 
 /**
- * Copyright  : 2017- www.jcohy.com
- * Created by jiac on 14:04 2018/4/7
- * Email: jia_chao23@126.com
- * ClassName: Allot
- * Description:
- **/
-
+ * Created by xbl on 2018/5/26.
+ * Description  :
+ */
 @Entity
 @Table(name = "allot")
 public class Allot {

@@ -13,8 +13,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * Created by jiac on 2018/5/10.
- * ClassName  : com.jcohy.scis.controller
+ * Created by xbl on 2018/5/26.
  * Description  :
  */
 @Controller

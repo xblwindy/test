@@ -8,8 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Created by jiac on 2017/12/21 10:56.
- * ClassName  : BaseController
+ * Created by xbl on 2018/5/26.
  * Description  :
  */
 public class BaseController {

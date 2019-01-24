@@ -3,8 +3,7 @@ package com.jcohy.scis.common;
 import java.util.List;
 
 /**
- * Created by jiac on 2018/5/26.
- * ClassName  : com.jcohy.scis.common
+ * Created by xbl on 2018/5/26.
  * Description  :
  */
 public class Datasets {

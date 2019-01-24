@@ -8,12 +8,9 @@ import org.springframework.data.domain.Pageable;
 import java.util.List;
 
 /**
- * Copyright  : 2017- www.jcohy.com
- * Created by jiac on 0:15 2018/4/11
- * Email: jia_chao23@126.com
- * ClassName: NoticeService
- * Description:
- **/
+ * Created by xbl on 2018/5/26.
+ * Description  :
+ */
 public interface NoticeService {
 
     /**

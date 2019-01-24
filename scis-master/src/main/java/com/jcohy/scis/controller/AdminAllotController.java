@@ -15,8 +15,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Created by jiac on 2018/4/2.
- * ClassName  : com.jcohy.perfectteaching.controller
+ * Created by xbl on 2018/5/26.
  * Description  :
  */
 @Controller

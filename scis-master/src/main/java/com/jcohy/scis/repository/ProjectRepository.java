@@ -9,12 +9,9 @@ import javax.transaction.Transactional;
 import java.util.List;
 
 /**
- * Copyright  : 2017- www.jcohy.com
- * Created by jiac on 18:51 2018/4/6
- * Email: jia_chao23@126.com
- * ClassName: ProjectRepository
- * Description:
- **/
+ * Created by xbl on 2018/5/26.
+ * Description  :
+ */
 public interface ProjectRepository extends JpaRepository<Project,Integer>{
 
     Project findAllByName(String name);

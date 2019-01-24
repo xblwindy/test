@@ -3,8 +3,7 @@ package com.jcohy.scis.model;
 import javax.persistence.*;
 
 /**
- * Created by jiac on 2018/4/10.
- * ClassName  : com.jcohy.scis.model
+ * Created by xbl on 2018/5/26.
  * Description  :
  */
 @Entity

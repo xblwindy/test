@@ -3,8 +3,7 @@ package com.jcohy.scis.common;
 import java.util.List;
 
 /**
- * Created by jiac on 2017/12/21 15:51.
- * ClassName  : PageJson
+ * Created by xbl on 2018/5/26.
  * Description  :
  */
 public class PageJson<T> {

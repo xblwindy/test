@@ -15,12 +15,9 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * Copyright  : 2017- www.jcohy.com
- * Created by jiac on 20:38 2018/4/7
- * Email: jia_chao23@126.com
- * ClassName: ExpertController
- * Description:
- **/
+ * Created by xbl on 2018/5/26.
+ * Description  :
+ */
 @Controller
 @RequestMapping("/expert")
 public class ExpertController extends BaseController{

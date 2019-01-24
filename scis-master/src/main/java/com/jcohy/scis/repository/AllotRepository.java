@@ -8,12 +8,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 /**
- * Copyright  : 2017- www.jcohy.com
- * Created by jiac on 20:41 2018/4/7
- * Email: jia_chao23@126.com
- * ClassName: AllotRepository
- * Description:
- **/
+ * Created by xbl on 2018/5/26.
+ * Description  :
+ */
 public interface AllotRepository extends JpaRepository<Allot,Integer>{
 
     List<Allot> findByExpert(Expert expert);

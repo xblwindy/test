@@ -19,12 +19,9 @@ import java.util.*;
 import java.util.List;
 
 /**
- * Copyright  : 2017- www.jcohy.com
- * Created by jiac on 23:50 2018/5/30
- * Email: jia_chao23@126.com
- * ClassName: GraphController
- * Description:
- **/
+ * Created by xbl on 2018/5/26.
+ * Description  :
+ */
 @RestController
 @RequestMapping("/graph")
 public class GraphController {

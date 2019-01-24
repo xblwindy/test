@@ -4,12 +4,9 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 /**
- * Copyright  : 2017- www.jcohy.com
- * Created by jiac on 15:27 2018/4/6
- * Email: jia_chao23@126.com
- * ClassName: Expert
- * Description:
- **/
+ * Created by xbl on 2018/5/26.
+ * Description  :
+ */
 @Entity
 @Table(name = "expert")
 public class Expert implements Serializable {

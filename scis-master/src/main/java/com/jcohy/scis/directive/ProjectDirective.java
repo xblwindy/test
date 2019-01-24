@@ -15,8 +15,7 @@ import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 /**
- * Created by jiac on 2018/5/3.
- * ClassName  : com.jcohy.recruit.directive
+ * Created by xbl on 2018/5/26.
  * Description  :
  */
 @Component

@@ -7,8 +7,7 @@ import org.springframework.data.domain.Pageable;
 import java.util.List;
 
 /**
- * Created by jiac on 2018/1/31 09:25.
- * ClassName  : NoticeService
+ * Created by xbl on 2018/5/26.
  * Description  :
  */
 public interface CircularService {

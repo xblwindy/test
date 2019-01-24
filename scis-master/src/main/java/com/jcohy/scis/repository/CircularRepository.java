@@ -6,8 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 /**
- * Created by jiac on 2018/1/31 09:23.
- * ClassName  : NoticeRepository
+ * Created by xbl on 2018/5/26.
  * Description  :
  */
 public interface CircularRepository extends JpaRepository<Circular,Integer> {

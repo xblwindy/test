@@ -12,8 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 /**
- * Created by jiac on 2018/1/31 15:23.
- * ClassName  : AdminCircularController
+ * Created by xbl on 2018/5/26.
  * Description  :
  */
 @Controller

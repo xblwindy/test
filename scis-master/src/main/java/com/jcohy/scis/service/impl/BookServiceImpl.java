@@ -7,8 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by jiac on 2018/4/9.
- * ClassName  : com.jcohy.scis.service.impl
+ * Created by xbl on 2018/5/26.
  * Description  :
  */
 @Service

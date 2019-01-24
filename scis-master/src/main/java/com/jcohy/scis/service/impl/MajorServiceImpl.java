@@ -13,12 +13,9 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * Copyright  : 2017- www.jcohy.com
- * Created by jiac on 22:11 2018/4/6
- * Email: jia_chao23@126.com
- * ClassName: MajorServiceImpl
- * Description:
- **/
+ * Created by xbl on 2018/5/26.
+ * Description  :
+ */
 @Service
 public class MajorServiceImpl implements MajorService {
 

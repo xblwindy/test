@@ -15,8 +15,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by jiac on 2018/5/3.
- * ClassName  : com.jcohy.recruit.directive
+ * Created by xbl on 2018/5/26.
  * Description  :
  */
 @Component

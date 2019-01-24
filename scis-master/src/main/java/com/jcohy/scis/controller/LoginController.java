@@ -22,8 +22,8 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 /**
- * ClassName  : LoginController
- * Description  :登录模块处理
+ * Created by xbl on 2018/5/26.
+ * Description  :
  */
 @Controller
 public class LoginController {

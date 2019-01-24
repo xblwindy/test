@@ -19,12 +19,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Copyright  : 2017- www.jcohy.com
- * Created by jiac on 18:07 2018/4/7
- * Email: jia_chao23@126.com
- * ClassName: ProjectController
- * Description:
- **/
+ * Created by xbl on 2018/5/26.
+ * Description  :
+ */
 @Controller
 @RequestMapping("/project")
 public class ProjectController extends BaseController{

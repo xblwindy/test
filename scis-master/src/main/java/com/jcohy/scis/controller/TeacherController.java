@@ -15,9 +15,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * ClassName: TeacherController
- * Description:
- **/
+ * Created by xbl on 2018/5/26.
+ * Description  :
+ */
 @Controller
 @RequestMapping("/teacher")
 public class TeacherController extends BaseController{

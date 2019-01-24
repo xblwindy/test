@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import java.util.List;
 
 /**
- * Created by jiac on 2018/4/2.
+ * Created by xbl on 2018/5/26.
  * Description  :
  */
 public interface NoticeRepository extends JpaRepository<Notice,Integer> {

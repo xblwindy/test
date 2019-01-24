@@ -15,12 +15,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.List;
 
 /**
- * Copyright  : 2017- www.jcohy.com
- * Created by jiac on 22:15 2018/4/6
- * Email: jia_chao23@126.com
- * ClassName: MajorController
- * Description:
- **/
+ * Created by xbl on 2018/5/26.
+ * Description  :
+ */
 @Controller
 @RequestMapping("/major/")
 public class MajorController extends BaseController{
