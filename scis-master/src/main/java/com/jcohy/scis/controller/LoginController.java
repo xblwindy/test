@@ -66,7 +66,7 @@ public class LoginController {
                 if(login == null){
                     return JsonResult.fail("登录失败,用户名不存在");
                 }
-                if(!login.getPassword().equals(password)){
+                if(!password.equals(login.getPassword())){
                     return JsonResult.fail("登录失败,用户名账号密码不匹配");
                 }
                 session.setAttribute("user",login);
@@ -76,7 +76,7 @@ public class LoginController {
                 if(login == null){
                     return JsonResult.fail("登录失败,用户名不存在");
                 }
-                if(!login.getPassword().equals(password)){
+                if(!password.equals(login.getPassword())){
                     return JsonResult.fail("登录失败,用户名账号密码不匹配");
                 }
                 session.setAttribute("user",login);
