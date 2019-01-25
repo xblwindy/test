@@ -56,4 +56,10 @@ public class HttpAspect {
         logger.info("SPEND TIME : " + (System.currentTimeMillis() - startTime.get()));
     }
 
+    //@AfterThrowing: 异常通知
+    @AfterThrowing(value="Pointcut()",throwing="e")
+    public void afterReturningMethod(JoinPoint joinPoint, Exception e){
+        logger.info(""+joinPoint.getArgs());
+        logger.info("调用了异常通知"+e);
+    }
 }
