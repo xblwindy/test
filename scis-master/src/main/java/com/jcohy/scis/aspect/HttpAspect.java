@@ -10,6 +10,9 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Arrays;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * ClassName  : HttpAspect
@@ -52,14 +55,7 @@ public class HttpAspect {
     @AfterReturning(returning = "object", pointcut = "log()")
     public void doAfterReturning(Object object) {
         // 处理完请求，返回内容
-        logger.info("RESPONSE : " + object.toString());
-        logger.info("SPEND TIME : " + (System.currentTimeMillis() - startTime.get()));
-    }
-
-    //@AfterThrowing: 异常通知
-    @AfterThrowing(value="Pointcut()",throwing="e")
-    public void afterReturningMethod(JoinPoint joinPoint, Exception e){
-        logger.info(""+joinPoint.getArgs());
-        logger.info("调用了异常通知"+e);
+//        logger.info("RESPONSE : " + object.toString());
+//        logger.info("SPEND TIME : " + (System.currentTimeMillis() - startTime.get()));
     }
 }
