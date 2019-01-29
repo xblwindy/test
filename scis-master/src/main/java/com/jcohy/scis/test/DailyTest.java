@@ -28,7 +28,7 @@ public class DailyTest {
          * 不仅设置了核心线程数，最大线程数也是Integer.MAX_VALUE。
          * 这个线程池是上述4个中为唯一个有延迟执行和周期执行任务的线程池。
          */
-        ExecutorService mSingleThreadPool = Executors.newScheduledThreadPool(5);
+        ExecutorService mScheduledThreadPool = Executors.newScheduledThreadPool(5);
         for(int i=0;i<10;i++){
 //            mCachedThreadPool.execute(()->test());
             mFixedThreadPool.execute(()->test());
