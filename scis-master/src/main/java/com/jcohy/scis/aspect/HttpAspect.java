@@ -58,8 +58,4 @@ public class HttpAspect {
 //        logger.info("RESPONSE : " + object.toString());
 //        logger.info("SPEND TIME : " + (System.currentTimeMillis() - startTime.get()));
     }
-
-    public static void main(String[] args) {
-
-    }
 }
