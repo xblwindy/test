@@ -16,7 +16,7 @@
             float: left;
         }
         .layui-field-title .layui-field-box{
-            padding: 10px 20px 10px 30px;
+            padding: 10px 10px 10px 10px;
         }
         .layui-table-cell{
             padding-top: 4px;

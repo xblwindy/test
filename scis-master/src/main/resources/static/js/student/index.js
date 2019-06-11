@@ -11,10 +11,10 @@ layui.define([ 'layer',  'table','common'], function (exports) {
         ,page: true //开启分页
         ,cols: [[ //表头
             {field: 'name', align:'center', title: '项目名',unresize:true}
-            ,{field: 'genre', align:'center', title: '团队性质'}
-            ,{field: 'type', align:'center', title: '项目类别',unresize:true,templet: '<div>{{d.type.name}}</div>'}
+           /* ,{field: 'genre', align:'center', title: '团队性质',unresize:true}
+            ,{field: 'type', align:'center', title: '项目类别',unresize:true,templet: '<div>{{d.type.name}}</div>'}*/
             ,{field: 'proResource', align:'center', title: '项目来源',unresize:true}
-            ,{field: 'moneyResource', align:'center', title: '经费来源',unresize:true}
+           /* ,{field: 'moneyResource', align:'center', title: '经费来源',unresize:true}*/
             ,{title: '项目状态',templet: '#status',unresize:true,width:250}
             ,{fixed: 'right',  title:'操作',align:'center', toolbar: '#operator',unresize:true}
         ]]
