@@ -1,6 +1,7 @@
 package com.jcohy.scis.service.impl;
 
 import com.jcohy.scis.exception.ServiceException;
+import com.jcohy.scis.mapper.UserMapper;
 import com.jcohy.scis.model.Student;
 import com.jcohy.scis.repository.StudentRepository;
 import com.jcohy.scis.service.StudentService;
@@ -21,18 +22,18 @@ public class StudentServiceImpl implements StudentService{
     @Autowired
     private StudentRepository studentRepository;
 
- /*   @Autowired
-    private UserMapper userMapper;*/
+    @Autowired
+    private UserMapper userMapper;
 
     @Override
     public Student login(Long num, String password) throws Exception {
         return studentRepository.findAdminByNum(num);
     }
 
-/*    @Override
+   @Override
     public Student login(Long num) throws Exception {
         return userMapper.getStudentInfo(String.valueOf(num));
-    }*/
+    }
 
     @Override
     public Page<Student> findAll(Pageable pageable) {

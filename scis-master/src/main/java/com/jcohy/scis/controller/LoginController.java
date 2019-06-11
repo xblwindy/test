@@ -61,8 +61,8 @@ public class LoginController {
             session.setAttribute("role",role);
             logger.error("name:{}  password:{}  type:{}",num,password,role);
             if(StringUtils.trim(role).equals("student")){
-                Student login = studentService.login(num, password);
-//                Student login = studentService.login(num);
+//                Student login = studentService.login(num, password);
+                Student login = studentService.login(num);
                 if(login == null){
                     return JsonResult.fail("登录失败,用户名不存在");
                 }
@@ -103,6 +103,7 @@ public class LoginController {
                 return JsonResult.ok().set("returnUrl", "/admin/main");
             }
         } catch (Exception e) {
+            logger.error("login error",e);
             return JsonResult.fail(e.getMessage());
         }
         return JsonResult.fail("角色不存在");

@@ -29,7 +29,7 @@ public interface StudentService {
      * @return
      * @throws Exception
      */
-/*    Student login(Long num) throws Exception;*/
+   Student login(Long num) throws Exception;
 
 
     /**
